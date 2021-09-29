@@ -221,7 +221,7 @@
   position: relative;
   text-transform: capitalize;
 }
-.mega-menu .menu-links > li > a:hover { color: #004b7d; }
+.mega-menu .menu-links > li > a:hover { color: #94b91c; }
 @media screen and (max-width: 992px) {
   .mega-menu .menu-links > li > a {
     width: auto;

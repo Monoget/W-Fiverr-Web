@@ -256,7 +256,7 @@ $consultationAvailablity = mysqli_query($db, $query);
 
                    {  $row4 = mysqli_fetch_assoc($email);?>
 
-          <p><?= $row4['data']?><br><br></p>
+          <a href="mailto:<?= $row4['data']?>"><?= $row4['data']?><br><br></a>
 
           <?php
 
