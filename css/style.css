@@ -118,28 +118,28 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
@@ -994,7 +994,7 @@ select {
 }
 
 .bg-overlay-black-70:before {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.55);
     content: "";
     height: 100%;
     left: 0;
@@ -1327,7 +1327,7 @@ select {
 }
 
 .mega-menu.desktopTopFixed .menu-list-items {
-    background: #23242a;
+    background: linear-gradient(to right, #1e1d1d,#838383, #1e1d1d,#302f2f, #0e0e0e);
     padding: 0px;
 }
 
@@ -5330,7 +5330,7 @@ footer .copyright ul li a:hover {
         Inner intro
 **************************************/
 .inner-intro {
-    height: 290px;
+    height: 200px;
     display: block;
 }
 
@@ -5347,7 +5347,6 @@ footer .copyright ul li a:hover {
 .intro-title {
     display: table-cell;
     vertical-align: bottom;
-    padding-bottom: 30px;
 }
 
 .inner-intro .intro-title.row [class*='col-'] {
