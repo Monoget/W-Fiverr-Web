@@ -226,7 +226,8 @@ $consultationAvailablity = mysqli_query($db, $query);
 
                    {  $row4 = mysqli_fetch_assoc($phone);?>
 
-          <p>1-877-Centive<br><?= $row4['data']?></p>
+                       <a href="callto:1-877-Centive"><h5 style="font-size: 16px;text-transform: lowercase;font-weight: 400;">1-877-Centive</h5></a><a href="callto:<?= $row4['data']?>">
+                               <h5 style="font-size: 16px;text-transform: lowercase;font-weight: 400;"><?= $row4['data']?></h5></a>
 
           <?php
 
@@ -256,7 +257,7 @@ $consultationAvailablity = mysqli_query($db, $query);
 
                    {  $row4 = mysqli_fetch_assoc($email);?>
 
-          <a href="mailto:<?= $row4['data']?>"><?= $row4['data']?><br><br></a>
+          <a href="mailto:<?= $row4['data']?>"><h5 style="font-size: 16px;text-transform: lowercase;font-weight: 400;"><?= $row4['data']?></h5><br></a>
 
           <?php
 
